@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Ouvindo Musica</title>
+    <style>
+        body {
+            background-color: rgb(115, 115, 117);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML</p>
+    <p>Formato simples</p>
+        <audio src="musicas/American Idle - RKVC.mp3" controls></audio>
+    <p>Formato mais completo</p>
+        <audio preload="metadata" controls>
+            <source src="musicas/Orient - SefChol.mp3" type="audio/mpeg">
+                seu navegador não suporta estes audios
+        </audio>
+    
+</body>
+</html>
